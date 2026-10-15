@@ -1,0 +1,31 @@
+{
+  "required_tags": [
+    "owner",
+    "environment",
+    "cost_center"
+  ],
+  "allowed_values": {
+    "environment": [
+      "dev",
+      "staging",
+      "prod"
+    ]
+  },
+  "resources": [
+    {
+      "id": "demo-compute-01",
+      "tags": {
+        "owner": "platform",
+        "environment": "prod",
+        "cost_center": "engineering"
+      }
+    },
+    {
+      "id": "demo-storage-02",
+      "tags": {
+        "environment": "production",
+        "owner": " "
+      }
+    }
+  ]
+}
